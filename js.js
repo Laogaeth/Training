@@ -21,7 +21,21 @@ const toDos = [
   },
 ];
 
-//converting to json
 
-const toDosJson = JSON.stringify(toDos);
-console.log(toDosJson);
+for (let toDo of toDos) {
+console.log(toDo.id);
+
+}
+
+////////////For Loops
+
+// for (let i = 0; i < toDos.length; i++){
+// console.log(toDos[i].text);
+// }
+
+///////////////////While loops
+// let i = 0;
+// while (i < 10){
+// console.log(`While Loop Number: ${i}`);
+// i++;
+// }
